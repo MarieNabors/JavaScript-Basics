@@ -36,5 +36,5 @@ return `A ${tipPercent}% tip on a $${total} bill would be $${tipAmount}.`
     
 }
 
-let tip = getTip(90)
+let tip = getTip(60)
 console.log(tip)
