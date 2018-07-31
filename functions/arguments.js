@@ -18,9 +18,23 @@ console.log(scoreText)
 
 // Marie's Challenge
 
-let getTip = function(total, tipPercent = .2){
-    return total * tipPercent
+// let getTip = function(total, tipPercent = .2){
+//     return total * tipPercent
+// }
+
+// let tip = getTip(100)
+// console.log(tip)
+
+//challenge area
+//Create a template string that calculates and prints:
+// "A 25% tip on $40 would be $10."
+let getTip = function(total, tipCalculation = .2){
+    let tipPercent = tipCalculation * 100
+    let tipAmount = total * tipCalculation
+return `A ${tipPercent}% tip on a $${total} bill would be $${tipAmount}.` 
+    
+    
 }
 
-let tip = getTip(100)
+let tip = getTip(90)
 console.log(tip)
