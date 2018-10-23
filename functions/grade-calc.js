@@ -1,3 +1,7 @@
+// step 1: define function
+// step 2: inside function, calculate grade percentage
+// step 3: return calcu
+
 let gradeCalc = function(pointsEarned, pointsPossible){
     let grade = pointsEarned / pointsPossible
     let percentGrade = grade * 100
@@ -15,9 +19,9 @@ let gradeCalc = function(pointsEarned, pointsPossible){
         else if(percentGrade >= 60) {
             letterGrade = 'D'
         }
-        else if(percentGrade <= 59) {
+        else {
             letterGrade = 'F'
         }
         return `You scored a ${percentGrade}% ${letterGrade}!` }
-let result = gradeCalc (29, 40)
+let result = gradeCalc (38, 40)
 console.log(result)
