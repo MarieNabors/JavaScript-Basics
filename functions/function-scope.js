@@ -14,4 +14,4 @@ let convertFahrenheitToCelsius = function (fahrenheit) {
 let tempOne = convertFahrenheitToCelsius(32)
 let tempTwo = convertFahrenheitToCelsius(68)
 console.log(tempOne)
-console.log(tempTwo)
+console.log(tempTwo) 
