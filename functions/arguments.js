@@ -1,40 +1,25 @@
 //Multiple Arguments
-
-let add = function(a, b, c){
+let add = function (a, b, c){
     return a + b + c
 }
 
 let result = add(10, 1, 5)
-console.log(result)
+console.log(result);
 
-// Default Arguments
+//Default Arguments
 
 let getScoreText = function (name = 'Anonymous', score = 0) {
-    return 'Name: ' + 'Score: ' + score
+    return 'Name: ' + name + ' - Score: ' + score
 }
 
-let scoreText = getScoreText()
+let scoreText = getScoreText(undefined, 99)
 console.log(scoreText)
 
-// Marie's Challenge
+//functin arguments: bill total, tipPercent, 
 
-// let getTip = function(total, tipPercent = .2){
-//     return total * tipPercent
-// }
-
-// let tip = getTip(100)
-// console.log(tip)
-
-//challenge area
-//Create a template string that calculates and prints:
-// "A 25% tip on $40 would be $10."
-let getTip = function(total, tipCalculation = .2){
-    let tipPercent = tipCalculation * 100
-    let tipAmount = total * tipCalculation
-return `A ${tipPercent}% tip on a $${total} bill would be $${tipAmount}.` 
-    
+let diningTip = function (total, tipPercent = .2){
+    return total * tipPercent
     
 }
-
-let tip = getTip(60)
+let tip = diningTip(80, .25);
 console.log(tip)
