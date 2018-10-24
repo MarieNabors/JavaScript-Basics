@@ -1,9 +1,9 @@
-let myBook = {
+let bookOne = {
     title: 'Celebration of Discipline',
     author: 'Richard Foster',
     pageCount: 286
 }
-let otherBook = {
+let bookTwo = {
     title: 'A Peoples History',
     author: 'Howard Zinn',
     pageCount: 723
@@ -16,8 +16,8 @@ let getSummary = function(book) {
     }
 }
 
-let bookSummary  = getSummary(myBook)
-let otherBookSummary = getSummary(otherBook)
+let bookSummary  = getSummary(bookOne)
+let otherBookSummary = getSummary(bookTwo)
 
 console.log(bookSummary.pageCountSummary)
 
