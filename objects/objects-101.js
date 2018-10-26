@@ -12,7 +12,7 @@ console.log(`${myBook.title} by ${myBook.author}`)
 // Challenge Area
 //Create an object for a person with properties including name, age, location
 //print example: "Marie is 37 and lives in Orlando."
-//next increase age by 1 an reprint message
+//next increase age by 1 and reprint message
 
 let person = {
     name: 'Marie',
