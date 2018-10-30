@@ -2,7 +2,7 @@
 // step 2: inside function, calculate grade percentage
 // step 3: return calcu
 
-let gradeCalc = function(pointsEarned, pointsPossible){
+const gradeCalc = function(pointsEarned, pointsPossible){
     let grade = pointsEarned / pointsPossible
     let percentGrade = grade * 100
     let letterGrade = ''
