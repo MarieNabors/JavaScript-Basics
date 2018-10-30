@@ -19,16 +19,14 @@ console.log(name.trim())
 
 //create a function to check if password is valid, not containing the word 'password' and at least 9 characters long
 
-let isValidPassword = function(){
-    if {
-        password.length >= 9
+let isValidPassword = function(password){
+    if(password.length > 8 && !password.includes('password')){
         return true
     }
-    else if {
-        password.includes('password')
+    else{
         return false
     }
-    console.log(isValidPassword(asdfe))
-    console.log(isValidPassword('abc123@*())(&^')
-    conso
 }
+console.log(isValidPassword('asdfp'))
+console.log(isValidPassword('abc123!@#$%^'))
+console.log(isValidPassword('asdfpasdfpoijpassword'))
